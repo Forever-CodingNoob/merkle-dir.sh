@@ -1,9 +1,9 @@
 # merkle-dir.sh
 
 `merkle-dir.sh` creates a Merkle tree from any directory. Specifically, it
-+ create a merkle tree of a given directory,
-+ generate an inclusion proof for any file under the directory, and
-+ verify inclusion proofs (to prove the integrity of a file).
++ creates a merkle tree of a given directory,
++ generates an inclusion proof for any file under the directory, and
++ verifies inclusion proofs (to prove the integrity of a file).
 
 Our format of merkle tree (as a file) and inclusion proof mainly follows [RFC 9162](https://www.rfc-editor.org/rfc/rfc9162).
 More importantly, it's written in Bash!
